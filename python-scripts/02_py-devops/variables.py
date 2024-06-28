@@ -1,27 +1,27 @@
-# # Assigning a value to a variable
-# my_variable = 42
+# Assigning a value to a variable
+my_variable = 42
 
-# # Accessing the value of a variable
-# print(my_variable)  # Output: 42
+# Accessing the value of a variable
+print(my_variable)  # Output: 42
 
 
-# # Local Variable
-# def my_function():
-#        x = 10  # Local variable
-#        print(x)
+# Local Variable
+def my_function():
+       x = 10  # Local variable
+       print(x)
    
-# my_function()
-# print(x)  # This will raise an error since 'x' is not defined outside the function.
+my_function()
+print(x)  # This will raise an error since 'x' is not defined outside the function.
 
 
-# # Globle Variable
-# y = 20  # Global variable
+# Globle Variable
+y = 20  # Global variable
 
-# def another_function():
-#     print(y)  # This will access the global variable 'y'
+def another_function():
+    print(y)  # This will access the global variable 'y'
 
-# another_function()
-# print(y)  # This will print 20
+another_function()
+print(y)  # This will print 20
 
 
 # Define configuration variables for a web server
