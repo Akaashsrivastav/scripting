@@ -46,3 +46,52 @@ print(result)
 print(ex_module.pi)
 ```
 In this case, `ex_module` is a Python module containing the `square` function and a variable `pi`.
+
+
+### Packages
+
+A package is a collection of modules organized in directories. Packages help you organize related modules into a hierarchy. They contain a special file named `__init__.py`, which indicates that the directory should be treated as a package.
+
+**Example:**
+
+Suppose you have a package structure as follows:
+
+```
+my_package/
+    __init__.py
+    module1.py
+    module2.py
+```
+
+I can use modules from this package as follows:
+
+```python
+from my_package import module1
+
+result = module1.function_from_module1()
+```
+
+In this example, `my_package` is a Python package containing modules `module1` and `module2`.
+
+
+## 2. How to Import a Package
+
+Importing a package or module in Python is done using the `import` statement. We can import the entire package, specific modules, or individual functions/variables from a module.
+
+**Example:**
+
+```python
+# Import the entire module
+import math
+
+# Use functions/variables from the module
+result = math.sqrt(16)
+print(result)
+
+# Import specific function/variable from a module
+from math import pi
+print(pi)
+```
+
+In this example, we import the `math` module and then use functions and variables from it. We can also import specific elements from modules using the `from module import element` syntax.
+

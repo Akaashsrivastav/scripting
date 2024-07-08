@@ -12,3 +12,11 @@ import ex_module
 result = ex_module.square(5)
 print(result)
 print(ex_module.pi)
+
+
+# Importing a Package
+import math
+result = math.sqrt(16)
+print(result)
+from math import pi
+print(pi)
